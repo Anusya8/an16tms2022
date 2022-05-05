@@ -9,4 +9,3 @@ public class Test {
         }
         System.out.println("Kolichestvo polozitelnih chisel = " + count);
     }
-}
