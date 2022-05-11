@@ -22,13 +22,9 @@ public class Homework3Part2 {
         num = input.nextInt();
         if (num % 2 == 0) {
             System.out.println("Число четное");
-            if ("int num" !=
-        } else {
+       else {
             System.out.println("Число нечетное");
-            if ("int num" !=
-        }
-
-        int)
+            if (num != int)
         System.out.println("Ошибка ввода числа");
 
 
