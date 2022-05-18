@@ -1,4 +1,4 @@
-public class ClassWork4 {
+/*public class ClassWork4 {
     public static void main(String[] args) {
         int month = 12;
         switch (month) {
@@ -31,32 +31,27 @@ public class ClassWork4 {
         for (int j = 0; j <= 100; j += 5) {
             System.out.println(j + " ");
         }
-    }
-
-    int l = 0;
 
 
-    while(l<=100)
+        int l = 0;
 
-    {
-        System.out.println(l++);
-    }
 
-    int i = 100;
-    int j = 200;
-            while(true)
+        while (l <= 100) {
+            System.out.println(l++);
+        }
 
-    {
+        int i = 100;
+        int j = 200;
+        while (true) {
 //            i++;
 //            l--;
 //            if(i==j){
 //            break
+        }
+        while (!(++i == --j)) ;
     }
-           while (!(++i ==--j))
-
-    {
-    }
-            System.out.println("Середина промежутка"+i);
-            System.out.println("Середина промежутка"+j);
-
 }
+
+
+// System.out.println("Середина промежутка"+i);
+//  System.out.println("Середина промежутка"+j);/*
