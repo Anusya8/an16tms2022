@@ -1,4 +1,6 @@
 import java.util.Random;
+import java.util.Scanner;
+
 class HoweWork4 {
     public static void main(String[] args) {
         Random rand = new Random(7);
@@ -36,19 +38,17 @@ class HoweWork4 {
 //        Рандомно генерируется число От 1 до 7.
 //        Если число равно 1, выводим на консоль “Понедельник”, 2 –”Вторник” и так далее.
 //        Если 6 или 7 – “Выходной”.
-
         int t; // time
         int a; // amoeba
 
         for (t = 3; t <= 24; t +=3) {
-            a = t * 2;
-            nexInt
+            a = 2 * (t+=3);
             System.out.print(a + "amoeba");
+
+
         }
-//2) Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
+        //2) Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
 //         сколько амеб будет через 3, 6, 9, 12,..., 24 часа
-    }
-}
 
         int num;
         System.out.println("Введите число: ");
