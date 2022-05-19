@@ -50,9 +50,25 @@ class HoweWork4 {
         //2) Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
 //         сколько амеб будет через 3, 6, 9, 12,..., 24 часа
 
-        int num;
+        Scanner scan = new Scanner(System.in);
         System.out.println("Введите число: ");
-        
+        int count = 0;
+        int num =  scan.nextInt();
+        for (;num != 0; num/=10; count++) {
+            System.out.println("Количество цифр" + count);
+        }
+        Scanner scan = new Scanner(System.in);
+        if (scan.hasNextInt()){
+            num =scan.nextInt();
+            if (num % 2 == 0){
+                System.out.println("четное");
+               else {
+                    System.out.println(" нечетное");
+                }
+            }
+
+
+
 
 //3) В переменную записываем число.
 //        Надо вывести на экран сколько в этом числе цифр и положительное оно или отрицательное.

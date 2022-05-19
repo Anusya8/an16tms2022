@@ -5,26 +5,27 @@ class HomeWork3 {
     public static void main(String[] args) {
 
         for (char i = 'a'; i <= 'z'; i++) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 //1) Используя тип данных char и операцию инкремента вывести на консоль все буквы английского алфавита
 
-    int num;
+        System.out.println("Введите число");
+    Scanner input = new Scanner(System.in);
+    int num = input.nextInt();
+        if(input.hasNextInt());
 
     {
-        System.out.println("Введите число");
-        Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
         if (num % 2 == 0) {
             System.out.println("Число четное");
         } else {
             System.out.println("Число нечетное");
         }
-        input.hasNextInt();
+    } else
+
+    {
         System.out.println("Ошибка ввода числа. Число не целое");
     }
-
 
 //Проверка четности числа
 //Создать программу, которая будет сообщать, является ли целое число, введённое пользователем,
@@ -33,9 +34,10 @@ class HomeWork3 {
 
 
     Scanner i = new Scanner(System.in);
-    int a = 0;
-    int b = 0;
-    int c = 0;
+    double a = scanner.nextDouble();
+    double b = 0;
+    double c = 0;
+    double adcA
 
     {
         System.out.print("Введите число: ");
@@ -56,13 +58,19 @@ class HomeWork3 {
 //Создать программу, которая будет выводить на экран меньшее по модулю из трёх введённых
 // пользователем вещественных чисел с консоли.
 
-    int n1 = 28_800;
-    int n2 = 8;
+    int n1 = 3600;
 
-        for(n1=28_800;n1>=0;n1--)
+    int.random =(
+
+    int(Math.random() *28800+1));
+    System.out.printLn("Timer for programmer"+random +"seconds")
+
+    int n2 = 1;
+
+        for(n1 =28_800;n1 >=0;n1--)
 
     {
-        System.out.println("до концарабочего дня осталось" + n1);
+        System.out.println("до конца рабочего дня осталось" + n1);
     }
         for(n2 =9;n2 <=17;n2++)
 
@@ -82,7 +90,9 @@ class HomeWork3 {
 //Итак, в переменную n должно записываться случайное (на время тестирования программы) целое число из [0;28800],
 // далее оно должно выводиться на экран (для Петрова) и на следующей строке (для сотрудниц) должна
 // выводиться фраза о количестве полных часов, содержащихся в n секундах.
-    public class dataType {
+    public class DataType {
+        byte b = 1;
+        char c = (char) b;
 
 
                     System.out.println("Введите слово, число, число с плавающей точкой и boolean значение");
@@ -136,14 +146,14 @@ class HomeWork3 {
         System.out.println(dataType[3][0]);
         System.out.println(dataType[0][4]);
         System.out.println(dataType[4][0]);
-    System.out.println(dataType[0][5]);
-    System.out.println(dataType[5][0]);
-    System.out.println(dataType[0][6]);
-    System.out.println(dataType[6][0]);
-    System.out.println(dataType[0][7]);
-    System.out.println(dataType[7][0]);
-    System.out.println(dataType[0][8]);
-    System.out.println(dataType[8][0]);
+        System.out.println(dataType[0][5]);
+        System.out.println(dataType[5][0]);
+        System.out.println(dataType[0][6]);
+        System.out.println(dataType[6][0]);
+        System.out.println(dataType[0][7]);
+        System.out.println(dataType[7][0]);
+        System.out.println(dataType[0][8]);
+        System.out.println(dataType[8][0]);
 
 //5) Необходимо написать программу, которая будет выводить на консоль таблицу приведения типов!
 //              byte	short	char	int 	long	float	double	boolean
@@ -177,21 +187,32 @@ class HomeWork3 {
      * 7) Метод должен вернуть максимальый элемент массива. Пример: array = {1,2,10,3} метод возвращает 10
      * <p>
      * 7) Метод должен вернуть максимальый элемент массива. Пример: array = {1,2,10,3} метод возвращает 10
-     **//*
-
-public static double average(int[] array) {
+     **/
+    public static <array> double average(int[]array) {
+        for (int 1)
         return 0;
-        }
+    }
 
-*/
 /**
  * 7) Метод должен вернуть максимальый элемент массива. Пример: array = {1,2,10,3} метод возвращает 10
  **/
-//public static int max(int[] array) {
+public static int max(int[] array) {
+    if (array !=null && array.length > 0) {
+        int maz =array [0];
+        for (int i =0; i<array.length;i++) {
+            int val =array [i];
+            for (int value: array){
+                if (value > max) {
+                    max = value;
+                }
+            }
+
+        }
+    }
     // return 0;
     // }
     // }
 
-
+    max
 }
 }

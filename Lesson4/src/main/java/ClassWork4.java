@@ -1,6 +1,4 @@
-/*public class ClassWork4 {
-    public static void main(String[] args) {
-        int month = 12;
+/* {        int month = 12;
         switch (month) {
             case 1, 2, 12:
                 System.out.println("Winter");
