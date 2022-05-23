@@ -5,6 +5,15 @@ public class Person {
     // характеристики (свойстваб поля) глобальная переменная
     public int age;
     public String name;
+
+    public int getAge(Person) {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public int height;
     public Address address;
 
