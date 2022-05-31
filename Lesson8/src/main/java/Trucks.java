@@ -18,7 +18,8 @@ public class Trucks extends GroundTransport {
 
     }
 
-    private double countPower() {
+    private double countPower ;
+    double countPower() {
         double kiloVat = countPower();
         return horsePower * 0.74;
     }

@@ -48,7 +48,7 @@ public class Car extends GroundTransport {
 
         @Override
         public String toString () {
-            return "Car{" +
+            return "Car{" + "kiloVat" + (horsePower * 0.74)+
                     "passenger=" + passenger +
                     ", carType='" + carType + '\'' +
                     ", passingTime=" + passingTime +
