@@ -5,6 +5,10 @@ public class Transport {
     int weight;
     String carBrand;
 
+    public Transport() {
+
+    }
+
     public double getHorsePower() {
         return horsePower;
     }
@@ -29,5 +33,8 @@ public class Transport {
     }
 
 
+    public String info() {
+        return null;
+    }
 }
 

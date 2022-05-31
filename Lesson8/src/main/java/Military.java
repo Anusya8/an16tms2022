@@ -7,13 +7,24 @@ public class Military extends AirTransport {
 
     public int getMissile() {
         return missile;
+        if (missile > 0 ) {
+            System.out.println(" Ракета пошла ...");
+        }
+            else {
+            System.out.println("Боеприпасы отсутствуют");
+
+        }
+
     }
 
     public boolean isEjector() {
         return ejector;
+
+        ejector = !0 ? "Катапультирование прошло успешно" : "У вас нет такой системы";
     }
 
     boolean  ejector;
+
 
     private double countPower () {
         double kiloVat = countPower();

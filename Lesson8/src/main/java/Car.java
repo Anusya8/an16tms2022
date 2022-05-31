@@ -1,15 +1,14 @@
-public class Car extends GroundTransport{
+public class Car extends GroundTransport {
 
     public Car(double horsePower, int maxSpeed, int weight, String carBrand) {
         super(horsePower, maxSpeed, weight, carBrand);
     }
 
     public int Car(double horsePower, int maxSpeed, int weight, String carBrand) {
-            return maxSpeed;
+        return maxSpeed;
     }
 
-            int passenger;
-
+    int passenger;
 
 
     public int getPassenger() {
@@ -21,46 +20,45 @@ public class Car extends GroundTransport{
     }
 
     String carType;
-            double passingTime;
-            double gas;
+    double passingTime;
+    double gas;
 
-         public double getGas() {
+    public double getGas() {
         return gas;
-        }
+    }
 
 
-
-
-        private double countPower() {
+    private double countPower() {
         double kiloVat = countPower();
         return horsePower * 0.74;
     }
+
     private double getPassingTime() {
-                return passingTime;
+        return passingTime;
+    }
 
+        private double gasOnMaxSpeed () {
+        return passingKm() / gas;
+            System.out.println("За время " + passingTime + "автомобиль," + " " + carType + " двигаясь с максимальной скоростью" + maxSpeed + " " + "пройдет" + " " + passingTime + " " + "и израсходует" + gasOnMaxSpeed + " " + " литров топлива.");
+                    }
 
-        private double passingKm() {
+        private double passingKm () {
             return maxSpeed / passingTime;
         }
 
-        private double gasOnMaxSpeed () {
-             return passingKm() / gas;
+        @Override
+        public String toString () {
+            return "Car{" +
+                    "passenger=" + passenger +
+                    ", carType='" + carType + '\'' +
+                    ", passingTime=" + passingTime +
+                    ", gas=" + gas +
+                    ", horsePower=" + horsePower +
+                    ", maxSpeed=" + maxSpeed +
+                    ", weight=" + weight +
+                    ", carBrand='" + carBrand + '\'' +
+                    '}';
         }
-
-    System.out.println ( "За время "+ passingTime + "автомобиль," + " " + carType + " двигаясь с максимальной скоростью" + maxSpeed + " " + "пройдет" + " " +  passingTime + " "+ "и израсходует" +gasOnMaxSpeed + " " + " литров топлива.");
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "passenger=" + passenger +
-                ", carType='" + carType + '\'' +
-                ", passingTime=" + passingTime +
-                ", gas=" + gas +
-                ", horsePower=" + horsePower +
-                ", maxSpeed=" + maxSpeed +
-                ", weight=" + weight +
-                ", carBrand='" + carBrand + '\'' +
-                '}';
-    }
- }
+

@@ -4,22 +4,24 @@ public class GroundTransport extends Transport{
     public GroundTransport(double horsePower, int maxSpeed, int weight, String carBrand) {
         super(horsePower, maxSpeed, weight, carBrand);
     }
-       int numberOfWeels;
 
-    public int getNumberOfWeels() {
-        return numberOfWeels;
+    public void setNumberOfWheels(int numberOfWheels) {
+        this.numberOfWheels = numberOfWheels;
     }
 
-    public int getPetrolConsumption() {
-        return petrolConsumption;
+    public void setPetrolConsumption(int petrolConsumption) {
+        this.petrolConsumption = petrolConsumption;
     }
+
+    int numberOfWheels;
+
 
     int petrolConsumption;
 
     @Override
     public String toString() {
         return "GroundTransport{" +
-                "numberOfWeels=" + numberOfWeels +
+                "numberOfWeels=" + numberOfWheels +
                 ", petrolConsumption=" + petrolConsumption +
                 ", horsePower=" + horsePower +
                 ", maxSpeed=" + maxSpeed +

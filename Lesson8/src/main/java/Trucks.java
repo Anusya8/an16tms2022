@@ -7,13 +7,14 @@ public class Trucks extends GroundTransport {
     int maxCapacity;
     double kiloVat;
 
-    public int getMaxCapacity() {
-        return int i;
+    public int getMaxCapacity( int i) {
+        return  i;
     }
 
     public Trucks(double horsePower, int maxSpeed, int weight, String carBrand, int maxCapacity) {
         super(horsePower, maxSpeed, weight, carBrand);
         this.maxCapacity = maxCapacity;
+
 
     }
 
@@ -25,14 +26,14 @@ public class Trucks extends GroundTransport {
 
 
     class Capacity {
+        public int getI() {
+            return 0;}
         int i;
-            if(i <=maxCapacity)
-
-        {
+            if( i <= maxCapacity) {
             System.out.println("Грузовик загружен");
-           else
+        }
+           else{
             System.out.print("Вам нужен грузовик побольше");
-
         }
 
     }

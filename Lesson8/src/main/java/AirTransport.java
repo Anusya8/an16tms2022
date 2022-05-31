@@ -13,7 +13,10 @@ public class AirTransport extends Transport{
         return takeOffField;
     }
 
-    @Override
+    public AirTransport() {
+
+    }
+       @Override
     public String toString() {
         return "AirTransport{" +
                 "wingSpan=" + wingSpan +
@@ -25,4 +28,4 @@ public class AirTransport extends Transport{
                 '}';
     }
 }
-}
+
