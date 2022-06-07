@@ -1,0 +1,21 @@
+package by.teachmeskills.robot;
+
+public class SamsungHand implements IHand{
+   int price;
+    public SamsungHand( int price) {
+        this.price =price;
+    }
+    public SamsungHand (){
+
+    }
+    @Override
+    public void upHand() {
+
+    }
+
+    @Override
+    public int getPrice() {
+
+        return price;
+    }
+}
