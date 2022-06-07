@@ -13,6 +13,7 @@ public class SamsungHead implements IHead{
 
     @Override
     public void speak() {
+        System.out.println(" Samsung head is speaking");
 
     }
 

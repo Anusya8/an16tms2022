@@ -9,6 +9,7 @@ public class ToshibaHand implements IHand{
 
     @Override
     public void upHand() {
+        System.out.println(" Toshiba head is speaking");
 
     }
 

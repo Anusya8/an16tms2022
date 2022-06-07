@@ -4,8 +4,8 @@ import lombok.Getter;
 
     @Getter
 
-    public class Robot implements IRobot, IHead,IHand, ILeg {
-        IHead head;
+    public class Robot implements IRobot {
+        private IHead head;
         private IHand hand;
         private ILeg leg;
 
@@ -53,27 +53,6 @@ import lombok.Getter;
             head.speak();
             hand.upHand();
             leg.step();
-        }
-
-        @Override
-        public int getPrice() {
-            return 0;
-        }
-
-
-        @Override
-        public void upHand() {
-
-        }
-
-        @Override
-        public void speak() {
-
-        }
-
-        @Override
-        public void step() {
-
         }
 
         /**

@@ -29,7 +29,7 @@ public class Main extends Robot {
                 System.out.println(smart.countPrice());
 
 
-                int[] robotPrice = {samsung.getPrice(), sony.countPrice(), smart.countPrice(), toshiba.countPrice(), quick.countPrice()};
+                int[] robotPrice = {samsung.countPrice(), sony.countPrice(), smart.countPrice(), toshiba.countPrice(), quick.countPrice()};
                 int maxPrice = robotPrice[0];
                 for (int j : robotPrice) {
                         if (j > maxPrice)
