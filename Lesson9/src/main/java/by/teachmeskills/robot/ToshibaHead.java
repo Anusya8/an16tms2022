@@ -11,6 +11,7 @@ public class ToshibaHead implements IHead{
 
     @Override
     public void speak() {
+        System.out.println(" Toshiba head is speaking");
 
     }
 

@@ -11,6 +11,7 @@ public class SonyHand implements IHand{
 
     @Override
     public void upHand() {
+        System.out.println( "Sony hands are waving");
 
     }
 

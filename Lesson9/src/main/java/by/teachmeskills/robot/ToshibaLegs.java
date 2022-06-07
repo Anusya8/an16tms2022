@@ -9,6 +9,7 @@ public class ToshibaLegs implements ILeg{
 
     @Override
     public void step() {
+        System.out.println(" Toshiba legs are walking");
 
     }
 

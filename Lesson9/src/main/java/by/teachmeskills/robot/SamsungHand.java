@@ -7,10 +7,11 @@ public class SamsungHand implements IHand{
     }
     public SamsungHand (){
 
+
     }
     @Override
     public void upHand() {
-
+        System.out.println( " Samsung hands are waving");
     }
 
     @Override

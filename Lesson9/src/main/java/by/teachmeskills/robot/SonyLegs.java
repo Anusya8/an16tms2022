@@ -10,6 +10,7 @@ public class SonyLegs implements ILeg{
     }
     @Override
     public void step() {
+        System.out.println(" Sony legs are walking");
 
     }
 
